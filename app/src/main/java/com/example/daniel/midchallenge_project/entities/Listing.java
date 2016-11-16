@@ -765,4 +765,45 @@ public class Listing {
         this.xlPictureUrls = xlPictureUrls;
     }
 
+    @Override
+    public String toString() {
+        return "Listing{" +
+                "airbnbPlusEnabled=" + airbnbPlusEnabled +
+                ", bathrooms=" + bathrooms +
+                ", bedrooms=" + bedrooms +
+                ", beds=" + beds +
+                ", city='" + city + '\'' +
+                ", coworkerHosted=" + coworkerHosted +
+                ", distance=" + distance +
+                ", extraHostLanguages=" + extraHostLanguages +
+                ", id=" + id +
+                ", instantBookable=" + instantBookable +
+                ", isBusinessTravelReady=" + isBusinessTravelReady +
+                ", isNewListing=" + isNewListing +
+                ", lat=" + lat +
+                ", listingTags=" + listingTags +
+                ", lng=" + lng +
+                ", name='" + name + '\'' +
+                ", neighborhood='" + neighborhood + '\'' +
+                ", personCapacity=" + personCapacity +
+                ", pictureCount=" + pictureCount +
+                ", pictureUrl='" + pictureUrl + '\'' +
+                ", primaryHost=" + primaryHost +
+                ", propertyType='" + propertyType + '\'' +
+                ", propertyTypeId=" + propertyTypeId +
+                ", publicAddress='" + publicAddress + '\'' +
+                ", reviewsCount=" + reviewsCount +
+                ", roomType='" + roomType + '\'' +
+                ", roomTypeCategory='" + roomTypeCategory + '\'' +
+                ", scrimColor='" + scrimColor + '\'' +
+                ", starRating=" + starRating +
+                ", thumbnailUrl='" + thumbnailUrl + '\'' +
+                ", user=" + user +
+                ", userId=" + userId +
+                ", xlPictureUrl='" + xlPictureUrl + '\'' +
+                ", previewEncodedPng='" + previewEncodedPng + '\'' +
+                ", pictureUrls=" + pictureUrls +
+                ", xlPictureUrls=" + xlPictureUrls +
+                '}';
+    }
 }
